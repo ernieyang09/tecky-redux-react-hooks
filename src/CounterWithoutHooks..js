@@ -3,7 +3,7 @@ import "./styles.css";
 
 import {connect} from 'react-redux';
 
-export function CounterWithoutHooks(props) {
+export function Counter(props) {
   const { counter,increment,decrement } = props;
   return (
     <div>
@@ -29,4 +29,4 @@ const mapDispatchToProps = (dispatch)=>({
   decrement:()=>dispatch({type:"DECREMENT"}),
 })
 
-export default connect(mapStateToProps,mapDispatchToProps)(CounterWithoutHooks);
+export default connect(mapStateToProps,mapDispatchToProps)(Counter);
