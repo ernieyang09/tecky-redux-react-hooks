@@ -4,10 +4,10 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
-  "homepage":"https://teckyio.github.io/tecky-react-hooks",
+  "homepage":"https://teckyio.github.io/tecky-redux-react-hooks",
   "dependencies": {
-    "react": "16.7.0-alpha.2",
-    "react-dom": "16.7.0-alpha.2",
+    "react": "16.7.0",
+    "react-dom": "16.7.0",
     "react-scripts": "2.0.3"
   },
   "devDependencies": {
