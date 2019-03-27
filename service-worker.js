@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/tecky-redux-react-hooks/precache-manifest.2bc1c6953d53293fd13f4231a8d28d88.js"
+  "/tecky-redux-react-hooks/precache-manifest.9a032727bcbb00ba694c7dcb7be09d23.js"
 );
 
 workbox.clientsClaim();
